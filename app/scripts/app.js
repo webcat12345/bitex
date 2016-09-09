@@ -20,10 +20,30 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/dashboard.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/account', {
+        templateUrl: 'views/account.html',
+        controller: 'AccountControllerCtrl',
+        controllerAs: 'account'
+      })      
+      .when('/buy_sell', {
+        templateUrl: 'views/buysell.html',
+        controller: 'BuysellControllerCtrl',
+        controllerAs: 'buysell'
+      })            
+      .when('/deposit', {
+        templateUrl: 'views/deposit.html',
+        controller: 'DepositControllerCtrl',
+        controllerAs: 'buysell'
+      })                  
+      .when('/withdraw', {
+        templateUrl: 'views/withdraw.html',
+        controller: 'WithdrawControllerCtrl',
+        controllerAs: 'buysell'
+      })                        
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

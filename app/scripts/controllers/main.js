@@ -14,4 +14,9 @@ angular.module('generatorApp')
       'AngularJS',
       'Karma'
     ];
+	// animsition_script();   
+	// asScroll_script();
+	// mousewheel_script();
+	// asScrollable_script();
+	// asHoverScroll_script();
   });
