@@ -1,0 +1,96 @@
+<div class="page animsition">
+	<div class="page-content">
+		<!-- Example Hover Table -->
+		<div class="panel">
+			<div class="panel-body container-fluid">
+				<div class="row row-lg">
+					<div class="col-md-6">
+						<div class="example-wrap">
+							<h4 class="example-title">Bid Table</h4>
+							<p>Total Bid count :<span>{{test.totalBidsNum}}</span></p>
+							<div class="example table-responsive">
+							  <table class="table table-hover">
+							    <thead>
+							      <tr>
+							        <th>Price (USD)</th>
+							        <th>Volume (BTC)</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr ng-repeat="bid in test.bidsList">
+							        <td>{{bid.price}}</td>
+							        <td>
+							          <span class="text-danger text-semibold"><i class="icon" aria-hidden="true"></i>{{bid.volume}}</span>
+							        </td>
+							      </tr>
+							    </tbody>
+							  </table>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="example-wrap">
+							<h4 class="example-title">Ask Table</h4>
+							<p>Total Ask count :<span>{{test.totalAsksNum}}</span></p>
+							<div class="example table-responsive">
+							  <table class="table table-hover">
+							    <thead>
+							      <tr>
+							        <th>Price (USD)</th>
+							        <th>Volume (BTC)</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr ng-repeat="ask in test.asksList">
+							        <td>{{ask.price}}</td>
+							        <td>
+							          <span class="text-danger text-semibold"><i class="icon" aria-hidden="true"></i>{{ask.volume}}</span>
+							        </td>
+							      </tr>
+							    </tbody>
+							  </table>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- End Example Hover Table -->
+	</div>
+</div>
+
+  <script src="styles/global/vendor/jquery/jquery.js"></script>
+  <script src="styles/global/vendor/bootstrap/bootstrap.js"></script>
+  <script src="styles/global/vendor/animsition/animsition.js"></script>
+  <script src="styles/global/vendor/asscroll/jquery-asScroll.js"></script>
+  <script src="styles/global/vendor/mousewheel/jquery.mousewheel.js"></script>
+  <script src="styles/global/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+  <script src="styles/global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+  <script src="styles/global/vendor/waves/waves.js"></script>
+  <!-- Plugins -->
+  <script src="styles/global/vendor/switchery/switchery.min.js"></script>
+  <script src="styles/global/vendor/intro-js/intro.js"></script>
+  <script src="styles/global/vendor/screenfull/screenfull.js"></script>
+  <script src="styles/global/vendor/slidepanel/jquery-slidePanel.js"></script>
+  <script src="styles/global/vendor/peity/jquery.peity.min.js"></script>
+  <!-- Scripts -->
+  <script src="styles/global/js/core.js"></script>
+  <script src="styles/assets/js/site.js"></script>
+  <script src="styles/assets/js/sections/menu.js"></script>
+  <script src="styles/assets/js/sections/menubar.js"></script>
+  <script src="styles/assets/js/sections/gridmenu.js"></script>
+  <script src="styles/assets/js/sections/sidebar.js"></script>
+  <script src="styles/global/js/configs/config-colors.js"></script>
+  <script src="styles/assets/js/configs/config-tour.js"></script>
+  <script src="styles/global/js/components/asscrollable.js"></script>
+  <script src="styles/global/js/components/animsition.js"></script>
+  <script src="styles/global/js/components/slidepanel.js"></script>
+  <script src="styles/global/js/components/switchery.js"></script>
+  <script src="styles/global/js/components/tabs.js"></script>
+  <script src="styles/global/js/components/peity.js"></script>
+  <script src="styles/global/js/plugins/selectable.js"></script>
+  <script src="styles/global/js/components/selectable.js"></script>
+  <script src="styles/global/js/components/table.js"></script>
+  <script src="styles/assets/examples/js/charts/peity.js"></script>

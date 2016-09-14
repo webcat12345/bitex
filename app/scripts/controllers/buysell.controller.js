@@ -9,9 +9,4 @@
  */
 angular.module('generatorApp')
   .controller('BuysellControllerCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
   });

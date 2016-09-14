@@ -53,7 +53,7 @@
         },
         events: {
           inStart: 'animsition.inStart',
-          inEnd: 'animsition.inEnd',
+          inEnd: 'animsition.inEnd',  
           outStart: 'animsition.outStart',
           outEnd: 'animsition.outEnd'
         }

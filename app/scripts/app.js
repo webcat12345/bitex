@@ -44,6 +44,11 @@ angular
         controller: 'WithdrawControllerCtrl',
         controllerAs: 'buysell'
       })                        
+      .when('/testpage', {
+        templateUrl: 'views/testpage.html',
+        controller: 'TestpageControllerJsCtrl',
+        controllerAs: 'test'
+      })      
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
